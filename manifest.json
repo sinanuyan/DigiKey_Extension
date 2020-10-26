@@ -1,0 +1,26 @@
+{
+  "browser_action": {
+    "default_title": "Digi-Key",
+    "default_popup": "digikey.html",
+    "browser_style": true,
+    "default_icon": {
+        "128": "star-half.svg"
+    }
+  },
+  "description": "Digi-Key Part Finder",
+  "homepage_url": "https://github.com/sinanuyan/DigiKey_Extension",
+  "manifest_version": 2,
+  "name": "Digi-Key",
+  "permissions": [
+    "management"
+  ],
+  "icons": {
+      "128": "star-half.svg"
+  },
+  "version": "1.0",
+  "browser_specific_settings": {
+    "gecko": {
+        "strict_min_version": "55.0a1"
+    }
+  }
+}
